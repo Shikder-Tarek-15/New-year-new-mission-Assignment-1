@@ -7,6 +7,11 @@
 
 /* Header Section */
 
+/* .container{
+    width: 82%;
+    max-width: 1320px;
+} */
+
 .header-section{
     background-image: url('../resources/Banner-Image.png');
     background-repeat: no-repeat;
@@ -44,7 +49,6 @@
 
 .discount{
     color: #F00;
-    /* text-align: center; */
     font-family: Inter;
     font-size: 88px;
     font-weight: 700;
@@ -54,11 +58,11 @@
 
 .offer-title{
     color: #F00;
-    /* text-align: center; */
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 15px;
+    width: 50%;
 }
 
 .offer-category{
@@ -80,6 +84,33 @@
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
+
+.party-text{
+    width: 500px;
+    padding: 120px;
+    margin: 20px 90px;
+
+}
+
+.party-title{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.party-description{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
 
 
