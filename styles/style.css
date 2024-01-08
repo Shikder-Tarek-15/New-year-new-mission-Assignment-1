@@ -73,3 +73,13 @@
     
 }
 
+/* Body section 2 start */
+
+.party-section{
+    background-image: url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
+
