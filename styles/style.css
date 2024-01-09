@@ -301,13 +301,13 @@
 
 /* section 6 */
 
-.portfolio-container:hover{
-    transform: matrix(2);
-    transform: rotateX('angle');
+.portfolio-container img:hover{
+    border: purple 5px solid;
+    border-radius: 15px;
 }
 
 .main-portfolio{
-    width: 72%;
+    width: 75%;
     margin: 100px auto;
     align-items: center;
     justify-content: center;
