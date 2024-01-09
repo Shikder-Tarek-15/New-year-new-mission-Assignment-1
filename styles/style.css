@@ -224,12 +224,45 @@
 
 .year-title{
     color: #F00;
-font-family: Inter;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-bottom: 16px;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+/* section 5 */
+
+.holiday-section{
+    margin-top: 118px;
+    text-align: center;
+}
+
+.holiday-title{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.holiday-discount{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.holidays-color{
+    color: #F00;
+}
+
+.holiday-section >p{
+    margin-top: 28px;
 }
 
 
