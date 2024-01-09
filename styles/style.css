@@ -3,6 +3,7 @@
 *{
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
+    font-size: normal;
 }
 
 /* Header Section */
@@ -262,9 +263,9 @@
 .holiday-section >p{
     margin-top: 28px;
 }
+/* Holiday */
 
 .discount-image-section{
-    background-color: yellow;
     width: 70%;
     margin: 0 auto;
     position: relative;
@@ -275,10 +276,27 @@
     bottom: 0;
     left: 0;
     right: 0;
+    z-index: -1;
 }
 
 .woman-pic{
-    position: right, top;
+    position: absolute;
+    right: 0;
+    top: 4;
+    bottom: 3;
+}
+
+.fifty-discount{
+    position: absolute;
+    left: 100;
+    right: 50;
+    bottom: ;
+}
+
+.box-pic{
+    /* position: absolute; */
+    position: ;
+    
 }
 
 /* section 6 */
@@ -343,4 +361,27 @@
     font-family: Inter;
     font-size: 10px;
     font-weight: 600;
+}
+
+
+/* Footer Section */
+
+footer{
+    background-color: #070211;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+
+}
+.common-footer{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 20px;
+}
+.social-link{
+    align-items: center;
 }
