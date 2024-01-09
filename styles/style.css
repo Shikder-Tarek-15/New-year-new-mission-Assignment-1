@@ -283,13 +283,16 @@
     position: absolute;
     right: 0;
     top: 4;
-    bottom: 3;
+    
 }
 
 .fifty-discount{
     position: absolute;
-    left: 100;
-    right: 50;
+    left: 750px;
+    right: 500px;
+    top: 100px;
+    z-index: 1;
+
     
 }
 
