@@ -290,12 +290,12 @@
     position: absolute;
     left: 100;
     right: 50;
-    bottom: ;
+    
 }
 
 .box-pic{
     /* position: absolute; */
-    position: ;
+    
     
 }
 
@@ -368,6 +368,7 @@
 
 footer{
     background-color: #070211;
+    margin-top: 120px;
 }
 
 .footer-section{
@@ -377,11 +378,17 @@ footer{
 }
 .common-footer{
     color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
+    font-family: sans-serif;
     font-weight: 500;
-    padding: 20px;
+    padding: 30px;
 }
-.social-link{
-    align-items: center;
+.social-link , .social-link>img, .social-link>a{
+    text-align: center;
+    padding: 14px;
+}
+
+.down-footer{
+    display: flex;
+    justify-content: space-around;
+
 }
