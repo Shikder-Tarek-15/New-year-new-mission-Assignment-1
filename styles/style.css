@@ -175,10 +175,8 @@
 
 .best-offer-container{
     display: flex;
-    /* width: 550px; */
     align-items: center;
     justify-content: center;
-    /* margin: 120px 140px; */
     width: 70%;
     margin: auto;
     justify-content: space-between;
@@ -265,5 +263,76 @@
     margin-top: 28px;
 }
 
+.discount-image-section{
+    background-color: yellow;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
 
+.red-bar{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 
+.woman-pic{
+    position: right, top;
+}
+
+/* section 6 */
+
+.main-portfolio{
+    width: 72%;
+    margin: 100px auto;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+    
+
+}
+
+.sec1{
+    margin-bottom: 24px;
+}
+.sec1 >img{
+    margin-right: 24px;
+}
+.img3{
+    margin: 0;
+}
+.sec2 >img{
+    margin-right: 24px;
+}
+.img6{
+    margin: 0;
+}
+
+/* section 7 */
+
+.newsletter{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+newsletter-form{
+    margin: 0;
+    border: none;
+    outline: none;
+}
+.newsletter-email{
+   padding: 10px;
+   border-radius: 15px 0 0 15px;
+   outline: none;
+    
+}
+.button{
+    margin-left: -5px;
+    padding: 10px;
+    border-radius: 0 15px 15px 0;
+}
