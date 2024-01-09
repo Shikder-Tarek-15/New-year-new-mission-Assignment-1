@@ -23,6 +23,7 @@
 
 .header-container{
     text-align: center;
+    align-items: center;
 }
 
 .header-tag{
@@ -58,11 +59,12 @@
 
 .offer-title{
     color: #F00;
+    text-align: center;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 15px;
-    width: 50%;
+
 }
 
 .offer-category{
@@ -86,7 +88,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    gap: 30px;
     
 }
 
@@ -94,7 +96,19 @@
     width: 500px;
     padding: 120px;
     margin: 20px 90px;
+    margin-left: -50px;
 
+}
+
+.party-text >button{
+    border: 0;
+    background-color: transparent;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .party-title{
@@ -102,6 +116,7 @@
     font-family: Merriweather;
     font-size: 64px;
     font-weight: 900;
+    margin-bottom: 24px;
 }
 
 .party-description{
@@ -111,6 +126,14 @@
     font-weight: 400;
 }
 
+/* Section 3 */
+
+.location-section{
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    justify-content: center;
+
+
+}
 
 
 
